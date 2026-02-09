@@ -1,14 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31423.177
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.00000.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordTheme", "NordTheme\NordTheme.csproj", "{06CFFE32-03D8-4B03-83E8-658C545D9C48}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{98820179-A724-40D8-B36F-602C21442451}"
-	ProjectSection(SolutionItems) = preProject
-		Libraries\Microsoft.VisualStudio.Pkgdef.dll = Libraries\Microsoft.VisualStudio.Pkgdef.dll
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{C37634D1-22F8-4524-AB09-179348B160AF}"
 EndProject
@@ -47,6 +44,6 @@ Global
 		{AFC03224-CC2E-473E-B34B-19452F4D7CCE} = {C37634D1-22F8-4524-AB09-179348B160AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8216D4E7-1C23-46E3-9630-32826E2A09AD}
+		SolutionGuid = {A2F7D3E1-9C45-4B78-B123-456789ABCDEF}
 	EndGlobalSection
 EndGlobal

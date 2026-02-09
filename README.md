@@ -10,9 +10,13 @@ Nord Visual Studio Theme
 
 ## Summary
 
-NOTE: Archiving this repository. Please use this theme instead: [Nord](https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code). 
+This is a port of [Nord](https://www.nordtheme.com/) to Visual Studio 2026.
 
-This is a port of [Nord](https://www.nordtheme.com/) to Visual Studio 2022.
+### Supported Versions
+
+| Visual Studio Version | Solution Folder |
+| --------------------- | --------------- |
+| Visual Studio 2026    | `src.2026/`     |
 
 ![Nord Theme Preview](./docs/NordThemeLarge.png)
 
@@ -21,15 +25,15 @@ This is a port of [Nord](https://www.nordtheme.com/) to Visual Studio 2022.
 ## Installation / Update
 
 1. Clone the repository
-2. Open the `NordTheme.sln`
+2. Open `src.2026/NordTheme.sln`
 3. Build solution in Release
 4. Look for .vsix inside bin\Release
-5. Double click .vsix
+5. Double click .vsix to install
 
 ## Contributions
 
 There are still many colors that need to be cleaned and made uniform.
 
-Willing to accept any and all contributions. I love the Nord theme and have been using it for everything so far. My love for the Visual Studio editor had me do this in my spare time. 
+Willing to accept any and all contributions. I love the Nord theme and have been using it for everything so far. My love for the Visual Studio editor had me do this in my spare time.
 
 If there are issues, please feel free to log them. If you have a fix for them feel free to submit the fix.

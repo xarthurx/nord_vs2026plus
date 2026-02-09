@@ -12,34 +12,20 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
-    
+    - uses: actions/checkout@v4
+
     - name: Setup NuGet.exe for use with actions
-      uses: NuGet/setup-nuget@v1.0.5
-  
+      uses: NuGet/setup-nuget@v2
+
     - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v1
-      
-    - name: Restore 2022 Packages
-      run: nuget restore src.2022\NordTheme.sln
+      uses: microsoft/setup-msbuild@v2
 
-    - name: Fixing Missing DLL
-      run: |
-        echo %userprofile%
-        xcopy src.2022\Libraries\Microsoft.VisualStudio.Pkgdef.dll %userprofile%\.nuget\packages\microsoft.visualstudio.vsixcolorcompiler\17.0.31410.258\ /y
-      shell: cmd
+    - name: Restore Packages
+      run: nuget restore src.2026\NordTheme.sln
 
-    - name: Build 2022 Extension
-      run: msbuild src.2022\NordTheme.sln /p:Configuration=Release /t:Rebuild
-      env: 
-        DeployExtension: False
-
-    - name: Restore 2019 Packages
-      run: nuget restore src.2019\NordTheme.sln
-
-    - name: Build 2019 Extension
-      run: msbuild src.2019\NordTheme.sln /p:Configuration=Release /t:Rebuild
-      env: 
+    - name: Build Extension
+      run: msbuild src.2026\NordTheme.sln /p:Configuration=Release /t:Rebuild
+      env:
         DeployExtension: False
 
     - name: Create Tag
@@ -58,7 +44,7 @@ jobs:
         filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
 
     - name: Copy VSIX to Releases
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       id: create_release
       if: steps.create_tag.outputs.successful
       with:
@@ -66,8 +52,7 @@ jobs:
         prerelease: false
         tag_name: ${{ steps.create_tag.outputs.version }}
         files: |
-          src.2022\NordTheme\bin\Release\NordTheme.vsix
-          src.2019\NordTheme\bin\Release\NordTheme.2019.vsix
+          src.2026\NordTheme\bin\Release\NordTheme.vsix
         body: |
           ${{ steps.changelog.outputs.compareurl }}
           ${{ steps.changelog.outputs.changelog }}
