@@ -37,6 +37,7 @@ jobs:
 
     - name: Generate changelog
       id: changelog
+      continue-on-error: true
       uses: jaywcjlove/changelog-generator@main
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
