@@ -354,3 +354,9 @@ MigrationBackup/
 
 # Libraries workaround (no longer needed)
 src.2026/Libraries/
+
+# Claude Code session data
+.claude/
+
+# Windows artifacts
+nul

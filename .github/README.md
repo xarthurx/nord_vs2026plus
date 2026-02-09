@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="../nord-icon.png">
+<img align="center" src="../src.2026/NordTheme/nord-icon.png">
 </p>
 
 <h1 align="center" style="text-align: center">
