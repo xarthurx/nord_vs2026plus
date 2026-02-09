@@ -14,10 +14,6 @@ A [Nord](https://www.nordtheme.com/) dark theme for **Visual Studio 2026+**, wit
 
 This project is a rewrite of [jwendl/nord-vs-theme](https://github.com/jwendl/nord-vs-theme), modernized for Visual Studio 2026 with the help of an AI assistant (Claude).
 
-![Nord Theme Preview](./docs/NordThemeLarge.png)
-
-> Font used is [Cascadia Code](https://docs.microsoft.com/en-us/windows/terminal/cascadia-code)
-
 ## Installation
 
 ### From VSIX
