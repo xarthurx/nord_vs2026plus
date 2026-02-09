@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("NordTheme")]
-[assembly: AssemblyDescription("Nord Theme for Visual Studio 2026")]
+[assembly: AssemblyDescription("Nord Dark and Nord Light themes for Visual Studio 2026")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NordTheme")]
@@ -27,5 +27,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("0.0.6")]
-[assembly: AssemblyFileVersion("0.0.6")]
+[assembly: AssemblyVersion("0.2.0")]
+[assembly: AssemblyFileVersion("0.2.0")]
