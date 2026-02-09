@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="../src.2026/NordTheme/nord-icon.png">
+<img align="center" src="../nord-icon.png">
 </p>
 
 <h1 align="center" style="text-align: center">
@@ -20,7 +20,7 @@ This project is a rewrite of [jwendl/nord-vs-theme](https://github.com/jwendl/no
 
 ### From VSIX
 
-1. Download the latest `NordTheme.vsix` from [Releases](https://github.com/xarthurx/nord_vs2026plus/releases)
+1. Download the latest `Nord2026Plus.vsix` from [Releases](https://github.com/xarthurx/nord_vs2026plus/releases)
 2. Double-click the `.vsix` file to install
 3. Restart Visual Studio
 4. Go to **Tools > Options > Environment > General > Color theme** and select **Nord2026+**
@@ -28,7 +28,7 @@ This project is a rewrite of [jwendl/nord-vs-theme](https://github.com/jwendl/no
 ### From Source
 
 1. Clone the repository
-2. Open `src.2026/NordTheme.slnx` in Visual Studio 2026
+2. Open `src.2026/Nord2026Plus.slnx` in Visual Studio 2026
 3. Build the solution in Release configuration
 4. The `.vsix` file will be in `src.2026/bin/Release/`
 5. Double-click the `.vsix` to install
