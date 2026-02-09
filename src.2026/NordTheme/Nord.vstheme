@@ -11303,5 +11303,91 @@
         <Foreground Type="CT_RAW" Source="FF8FBCBB" />
       </Color>
     </Category>
+    <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+      <!-- Accent colors - Nord10 (Frost dark blue) as primary accent -->
+      <Color Name="AccentFillDefault">
+        <Background Type="CT_RAW" Source="FF5E81AC" />
+      </Color>
+      <Color Name="AccentFillSecondary">
+        <Background Type="CT_RAW" Source="E55E81AC" />
+      </Color>
+      <Color Name="AccentFillTertiary">
+        <Background Type="CT_RAW" Source="CC5E81AC" />
+      </Color>
+      <!-- Control fills - Nord1/Nord2 for interactive controls -->
+      <Color Name="ControlFillDefault">
+        <Background Type="CT_RAW" Source="FF3B4252" />
+      </Color>
+      <Color Name="ControlFillSecondary">
+        <Background Type="CT_RAW" Source="FF434C5E" />
+      </Color>
+      <Color Name="ControlFillTertiary">
+        <Background Type="CT_RAW" Source="FF4C566A" />
+      </Color>
+      <!-- Solid backgrounds - Nord0/Nord1 -->
+      <Color Name="SolidBackgroundFillBase">
+        <Background Type="CT_RAW" Source="FF2E3440" />
+      </Color>
+      <Color Name="SolidBackgroundFillSecondary">
+        <Background Type="CT_RAW" Source="FF3B4252" />
+      </Color>
+      <Color Name="SolidBackgroundFillTertiary">
+        <Background Type="CT_RAW" Source="FF434C5E" />
+      </Color>
+      <Color Name="SolidBackgroundFillQuaternary">
+        <Background Type="CT_RAW" Source="FF4C566A" />
+      </Color>
+      <!-- Surface backgrounds -->
+      <Color Name="SurfaceBackgroundFillDefault">
+        <Background Type="CT_RAW" Source="FF2E3440" />
+      </Color>
+      <!-- Text fills - Nord4/Nord5/Nord6 for primary/secondary/tertiary -->
+      <Color Name="TextFillPrimary">
+        <Background Type="CT_RAW" Source="FFECEFF4" />
+      </Color>
+      <Color Name="TextFillSecondary">
+        <Background Type="CT_RAW" Source="9ED8DEE9" />
+      </Color>
+      <Color Name="TextFillTertiary">
+        <Background Type="CT_RAW" Source="66D8DEE9" />
+      </Color>
+      <!-- Strokes / borders - Nord3 -->
+      <Color Name="StrokeDefault">
+        <Background Type="CT_RAW" Source="FF4C566A" />
+      </Color>
+      <Color Name="StrokeDivider">
+        <Background Type="CT_RAW" Source="FF434C5E" />
+      </Color>
+      <!-- System / semantic colors -->
+      <Color Name="SystemFillSuccess">
+        <Background Type="CT_RAW" Source="FFA3BE8C" />
+      </Color>
+      <Color Name="SystemFillCaution">
+        <Background Type="CT_RAW" Source="FFEBCB8B" />
+      </Color>
+      <Color Name="SystemFillCritical">
+        <Background Type="CT_RAW" Source="FFBF616A" />
+      </Color>
+      <Color Name="SystemFillAttention">
+        <Background Type="CT_RAW" Source="FF5E81AC" />
+      </Color>
+    </Category>
+    <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+      <Color Name="EnvironmentBackground">
+        <Background Type="CT_RAW" Source="FF2E3440" />
+      </Color>
+      <Color Name="EnvironmentBorder">
+        <Background Type="CT_RAW" Source="FF5E81AC" />
+      </Color>
+      <Color Name="EnvironmentIndicator">
+        <Background Type="CT_RAW" Source="664C566A" />
+      </Color>
+      <Color Name="EnvironmentLogo">
+        <Background Type="CT_RAW" Source="FF5E81AC" />
+      </Color>
+      <Color Name="EnvironmentLayeredBackground">
+        <Background Type="CT_RAW" Source="803B4252" />
+      </Color>
+    </Category>
   </Theme>
 </Themes>
