@@ -30,7 +30,7 @@ This project is a rewrite of [jwendl/nord-vs-theme](https://github.com/jwendl/no
 1. Clone the repository
 2. Open `src.2026/NordTheme.slnx` in Visual Studio 2026
 3. Build the solution in Release configuration
-4. The `.vsix` file will be in `src.2026/NordTheme/bin/Release/`
+4. The `.vsix` file will be in `src.2026/bin/Release/`
 5. Double-click the `.vsix` to install
 
 ## Credits
