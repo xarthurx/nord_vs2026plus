@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center" style="text-align: center">
-nord2026+
+Nord2026+
 </h1>
 
 [![.NET](https://github.com/xarthurx/nord_vs2026plus/actions/workflows/dotnet.yml/badge.svg)](https://github.com/xarthurx/nord_vs2026plus/actions/workflows/dotnet.yml)
@@ -23,7 +23,7 @@ This project is a rewrite of [jwendl/nord-vs-theme](https://github.com/jwendl/no
 1. Download the latest `NordTheme.vsix` from [Releases](https://github.com/xarthurx/nord_vs2026plus/releases)
 2. Double-click the `.vsix` file to install
 3. Restart Visual Studio
-4. Go to **Tools > Options > Environment > General > Color theme** and select **nord2026+**
+4. Go to **Tools > Options > Environment > General > Color theme** and select **Nord2026+**
 
 ### From Source
 
