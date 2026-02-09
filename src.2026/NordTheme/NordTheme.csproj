@@ -62,7 +62,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Nord.vstheme" />
-    <None Include="NordLight.vstheme" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
@@ -89,10 +88,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="nord.vssettings">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="nord-light.vssettings">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

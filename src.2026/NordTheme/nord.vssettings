@@ -28,12 +28,12 @@
                     <Category GUID="{75A05685-00A8-4DED-BAE5-E7A50BFA929A}" FontName="Cascadia Code" FontSize="12" CharSet="1" FontIsDefault="No">
                         <Items>
                             <Item Name="MarkerFormatDefinition/ScopeHighlight" Foreground="0x00F7EBE7" Background="0x006A564C" BoldFont="Yes"/>
-                            <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x01000000" Background="0x007087D0" BoldFont="Yes"/>
+                            <Item Name="MarkerFormatDefinition/FindHighlight" Foreground="0x01000000" Background="0x00D0C088" BoldFont="Yes"/>
                             <Item Name="deltadiff.remove.word" Foreground="0x006666FF" Background="0x0052423B" BoldFont="Yes"/>
-                            <Item Name="deltadiff.add.line" Foreground="0x01000000" Background="0x00BBBC8F" BoldFont="Yes"/>
-                            <Item Name="deltadiff.remove.line" Foreground="0x01000000" Background="0x004B31BF" BoldFont="Yes"/>
-                            <Item Name="CurrentLineActiveFormat" Foreground="0x0040342E" Background="0x006A564C" BoldFont="Yes"/>
-                            <Item Name="Type" Foreground="0x009F9D5A" Background="0x01000001" BoldFont="Yes"/>
+                            <Item Name="deltadiff.add.line" Foreground="0x01000000" Background="0x00C1A181" BoldFont="Yes"/>
+                            <Item Name="deltadiff.remove.line" Foreground="0x01000000" Background="0x006A61BF" BoldFont="Yes"/>
+                            <Item Name="CurrentLineActiveFormat" Foreground="0x0040342E" Background="0x0052423B" BoldFont="Yes"/>
+                            <Item Name="Type" Foreground="0x00BBBC8F" Background="0x01000001" BoldFont="Yes"/>
                             <Item Name="Keyword" Foreground="0x00C1A181" Background="0x01000001" BoldFont="Yes"/>
                             <Item Name="Peek Highlighted Text Unfocused" Foreground="0x01000000" Background="0x006A564C" BoldFont="Yes"/>
                             <Item Name="Peek Highlighted Text" Foreground="0x01000000" Background="0x00C1A181" BoldFont="Yes"/>
@@ -78,7 +78,7 @@
                     <Category GUID="{E0187991-B458-4F7E-8CA9-42C9A573B56C}" FontName="Cascadia Code" FontSize="12" CharSet="1" FontIsDefault="No">
                         <Items>
                             <Item Name="Memory Unreadable" Foreground="0x0040342E" Background="0x008BCBEB" BoldFont="Yes"/>
-                            <Item Name="Function" Foreground="0x00AD8EB4" Background="0x01000001" BoldFont="Yes"/>
+                            <Item Name="Function" Foreground="0x00D0C088" Background="0x01000001" BoldFont="Yes"/>
                             <Item Name="Keyword" Foreground="0x00C1A181" Background="0x01000001" BoldFont="Yes"/>
                         </Items>
                     </Category>
