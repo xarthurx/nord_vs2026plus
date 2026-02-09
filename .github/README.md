@@ -14,6 +14,8 @@ A [Nord](https://www.nordtheme.com/) dark theme for **Visual Studio 2026+**, wit
 
 This project is a rewrite of [jwendl/nord-vs-theme](https://github.com/jwendl/nord-vs-theme), modernized for Visual Studio 2026 with the help of an AI assistant (Claude).
 
+![Theme Preview](title_img.png)
+
 ## Installation
 
 ### From VSIX
