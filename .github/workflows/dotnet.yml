@@ -21,10 +21,10 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Restore Packages
-      run: nuget restore src.2026\NordTheme.sln
+      run: nuget restore src.2026\NordTheme.slnx
 
     - name: Build Extension
-      run: msbuild src.2026\NordTheme.sln /p:Configuration=Release /t:Rebuild
+      run: msbuild src.2026\NordTheme.slnx /p:Configuration=Release /t:Rebuild
       env:
         DeployExtension: False
 
