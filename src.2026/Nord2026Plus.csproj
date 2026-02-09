@@ -13,8 +13,8 @@
     <ProjectGuid>{06CFFE32-03D8-4B03-83E8-658C545D9C48}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NordTheme</RootNamespace>
-    <AssemblyName>NordTheme</AssemblyName>
+    <RootNamespace>Nord2026Plus</RootNamespace>
+    <AssemblyName>Nord2026Plus</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <GeneratePkgDefFile>true</GeneratePkgDefFile>
     <UseCodebase>true</UseCodebase>
@@ -47,7 +47,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="NordThemePackage.cs" />
+    <Compile Include="Nord2026PlusPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

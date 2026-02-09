@@ -21,10 +21,10 @@ jobs:
       uses: microsoft/setup-msbuild@v2
 
     - name: Restore Packages
-      run: nuget restore src.2026\NordTheme.slnx
+      run: nuget restore src.2026\Nord2026Plus.slnx
 
     - name: Build Extension
-      run: msbuild src.2026\NordTheme.slnx /p:Configuration=Release /t:Rebuild
+      run: msbuild src.2026\Nord2026Plus.slnx /p:Configuration=Release /t:Rebuild
       env:
         DeployExtension: False
 
@@ -52,7 +52,7 @@ jobs:
         prerelease: false
         tag_name: ${{ steps.create_tag.outputs.version }}
         files: |
-          src.2026\bin\Release\NordTheme.vsix
+          src.2026\bin\Release\Nord2026Plus.vsix
         body: |
           ${{ steps.changelog.outputs.compareurl }}
           ${{ steps.changelog.outputs.changelog }}
