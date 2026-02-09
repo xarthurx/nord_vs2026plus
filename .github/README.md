@@ -41,4 +41,4 @@ This project is a rewrite of [jwendl/nord-vs-theme](https://github.com/jwendl/no
 
 ## License
 
-MIT
+[MIT](LICENSE)
