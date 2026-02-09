@@ -62,6 +62,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Nord.vstheme" />
+    <None Include="NordLight.vstheme" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
